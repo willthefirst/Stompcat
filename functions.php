@@ -1,18 +1,6 @@
 <?php
 
-// This file is part of the Carrington Blueprint Theme for WordPress
-//
-// Copyright (c) 2008-2013 Crowd Favorite, Ltd. All rights reserved.
-// http://crowdfavorite.com
-//
-// Released under the GPL license
-// http://www.opensource.org/licenses/gpl-license.php
-//
-// **********************************************************************
-// This program is distributed in the hope that it will be useful, but
-// WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-// **********************************************************************
+
 
 if (__FILE__ == $_SERVER['SCRIPT_FILENAME']) { die(); }
 
@@ -133,7 +121,6 @@ function cfct_load_assets() {
 	}
 
 	// Scripts
-	wp_enqueue_script('jquery', $cfct_assets_url . 'js/jquery.min.js', array('jquery'), CFCT_URL_VERSION);
 	wp_enqueue_script('script', $cfct_assets_url . 'js/script.js', array('jquery'), CFCT_URL_VERSION);
 }
 add_action('wp_enqueue_scripts', 'cfct_load_assets');
