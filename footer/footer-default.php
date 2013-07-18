@@ -5,7 +5,6 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 
 ?>
 
-</div><!-- END div.container -->
-
+	<div id="fb-root"></div><!-- For Facebook Like button -->
 </body>
 </html>

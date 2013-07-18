@@ -34,7 +34,7 @@ include_once(CFCT_PATH.'carrington-core/carrington.php');
  * Set the content width based on the theme's design and stylesheet.
  */
 if (! isset($content_width)) {
-	$content_width = 600;
+	$content_width = 940;
 }
 
 
@@ -109,16 +109,24 @@ add_action( 'widgets_init', 'cfct_widgets_init' );
 /**
  * Enqueue's scripts and styles
  */
+
+/* 	First, jQuery (http://css-tricks.com/snippets/wordpress/include-jquery-in-wordpress-theme/)  -------------------------------------------- */
+
+function my_jquery_enqueue() {
+   wp_deregister_script('jquery');
+   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", false, null);
+   wp_enqueue_script('jquery');
+}
+if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+
+/* 	Then, our own  -------------------------------------------- */
+
 function cfct_load_assets() {
 	//Variable for assets url
 	$cfct_assets_url = get_template_directory_uri() . '/assets-helium/';
 
 	// Styles
 	wp_enqueue_style('styles', $cfct_assets_url . 'css/style.css', array(), CFCT_URL_VERSION);
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
 
 	// Scripts
 	wp_enqueue_script('script', $cfct_assets_url . 'js/script.js', array('jquery'), CFCT_URL_VERSION);
