@@ -23,8 +23,6 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 	<meta property="og:url" content="http://www.stompcat.com"/>
 	<meta property="og:type" content="blog"/>
 	<?php wp_head(); ?>
-	<!-- Twitter share script -->
-	<script src="https://platform.twitter.com/widgets.js"></script>
 </head>
 
 <body <?php body_class("responsive"); ?>>

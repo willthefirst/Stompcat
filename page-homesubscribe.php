@@ -28,8 +28,8 @@ cfct_loop();
 				<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your First Name" />
 			</div>
 			<div class="span3">
-<!-- 				<input type="submit" value="Submit (with smaller caption of what you're gonna get)" />
- -->			</div>
+				<button class="button" type="submit">Sign me up</button>
+			</div>
 		</div>
 	</form>
 </div>
@@ -38,31 +38,29 @@ cfct_loop();
 <div class="strip strip-fb">
 	<div class="container">
 		<div class="row">
-			<div class="span9 text-centered">
-				<div class="fb-like" data-href="http://www.facebook.com/stompcat" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana"></div>
-			</div>
-			<div class="span3">
-				Smaller caption of what you're gonna get
+			<div class="span12 text-centered">
+				<p>For photos, videos, and quick updates, you should most definitely
+					<span class="fb-like" data-href="http://www.facebook.com/stompcat" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana"></span>
+					us.
+				</p>
 			</div>
 		</div>
 	</div>
 </div>
 
 <!-- Twitter -->
-<a href="https://twitter.com/intent/follow?&screen_name=Stompcat" class="strip strip-tw">
+<div class="strip strip-tw">
 	<div class="container">
 		<div class="row">
-			<div class="span9 text-centered">
-				<div class="twitter">
-					Test
-				</div>
+			<div class="span12 text-centered">
+				<p>
+					And if you feel so inclined,  <a href="https://twitter.com/stompcat" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @stompcat</a>
+					us too. Yeah. We're pretty connected.
+				</p>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
-			<div class="span3">
-				Smaller caption of what you're gonna get
-			</div>
-		</div>
 	</div>
-</a>
+</div>
 
 
 
