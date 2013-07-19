@@ -27,8 +27,8 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 	<script src="https://platform.twitter.com/widgets.js"></script>
 </head>
 
-<body <?php body_class(); ?>>
-		<div>
+<body <?php body_class("responsive"); ?>>
+		<div class="strip">
 			<div class="container">
 				<span>Hey, we are</span>
 			</div>
