@@ -29,13 +29,11 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 
 <body <?php body_class("responsive"); ?>>
 		<div class="strip">
-			<div class="container">
-				<span>Hey, we are</span>
+			<div class="container text-centered">
+				<span class="pre-banner-text">We are a band called</span>
 			</div>
 		</div>
-		<div class="strip-banner">
-			<h1>
-				<span class="hide">Stompcat</span>
-				<img class="banner-img" src="<?php echo get_template_directory_uri() . '/assets-helium/img/web-banner.png'; ?>" alt="Stompcat">
-			</h1>
-		</div>
+		<h1 class="strip-banner">
+			<span class="hide">Stompcat</span>
+			<img class="banner-img" src="<?php echo get_template_directory_uri() . '/assets-helium/img/web-banner.png'; ?>" alt="Stompcat">
+		</h1>
