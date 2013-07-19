@@ -28,8 +28,8 @@ cfct_loop();
 				<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your First Name" />
 			</div>
 			<div class="span3">
-				<input type="submit" value="Submit (with smaller caption of what you're gonna get)" />
-			</div>
+<!-- 				<input type="submit" value="Submit (with smaller caption of what you're gonna get)" />
+ -->			</div>
 		</div>
 	</form>
 </div>
