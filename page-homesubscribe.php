@@ -19,16 +19,16 @@ cfct_loop();
 		<input type="hidden" name="u" value="a9647b6224323ceb07cf3ab54" />
 		<input type="hidden" name="id" value="18f86f4bfb" />
 		<div class="row">
-			<div class="span5">
+			<div class="span5 email-input-container">
 				<label for="MERGE0">Your Email:</label>
 				<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Your Email" required/>
 			</div>
-			<div class="span4 hide-on-small-max">
+			<div class="span3 hide-on-small-max">
 				<label for="MERGE1">First Name:</label>
-				<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your First Name" />
+				<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="First Name" />
 			</div>
-			<div class="span3">
-				<button class="button" type="submit">Sign me up</button>
+			<div class="span4">
+				<button class="button" style="width:100%" type="submit">Sign me up</button>
 			</div>
 		</div>
 	</form>
