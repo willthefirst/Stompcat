@@ -15,7 +15,10 @@ cfct_loop();
 
 <!-- Email -->
 <div class="strip strip-email">
-	<form class="container" action="http://stompcat.us7.list-manage.com/subscribe/post" method="POST" target="_blank">
+	<div class="container prompt">
+		<span class="prompt-descr">1) GET PRETTY ICONS FOR STEP 1 2 AND 3.For emails about the really important stuff, get on the Stomplist. ORDER SHOULD BE: " (1) LIKE US ON FACEBOOK [SMALL AND NEXT LINE.=] FOR EMAILS ABOUT THE ..."</span>
+	</div>
+	<form class="container email-form" action="http://stompcat.us7.list-manage.com/subscribe/post" method="POST" target="_blank">
 		<input type="hidden" name="u" value="a9647b6224323ceb07cf3ab54" />
 		<input type="hidden" name="id" value="18f86f4bfb" />
 		<div class="row">
@@ -39,9 +42,12 @@ cfct_loop();
 	<div class="container">
 		<div class="row">
 			<div class="span12 text-centered">
-				<p>For photos, videos, and quick updates, you should most definitely
+				<div class="prompt">
+					<span class="prompt-descr">2) For behind-the-scene updates, upcoming show info, and stories of Stompcat,</span>
+				</div>
+				<p>
 					<span class="fb-like" data-href="http://www.facebook.com/stompcat" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana"></span>
-					us.
+					us on Facebook.
 				</p>
 			</div>
 		</div>
@@ -51,11 +57,11 @@ cfct_loop();
 <!-- Twitter -->
 <div class="strip strip-tw">
 	<div class="container">
-		<div class="row">
-			<div class="span12 text-centered">
+		<div class="row prompt">
+			<div class="span12 prompt-descr">
 				<p>
-					And if you feel so inclined,  <a href="https://twitter.com/stompcat" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @stompcat</a>
-					us too. Yeah. We're pretty connected.
+					3) And if you feel so inclined,  <a href="https://twitter.com/stompcat" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @stompcat</a>
+					us. We hear it's all the rage.
 				</p>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
