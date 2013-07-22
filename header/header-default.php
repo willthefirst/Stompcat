@@ -22,6 +22,7 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 	  content="We make music to to stomp to. And we brighten news feeds across the Internet." />
 	<meta property="og:url" content="http://www.stompcat.com"/>
 	<meta property="og:type" content="blog"/>
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	<?php wp_head(); ?>
 </head>
 
