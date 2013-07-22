@@ -35,9 +35,10 @@ cfct_loop();
 							<label for="MERGE0">Your Email:</label>
 							<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Your email" required/>
 						</div>
-						<div>
+						<div class="email-submit">
 							<button class="button-custom button-large" style="width:100%" type="submit">Sign me up</button>
 						</div>
+						<p class="hide-on-small-max">We'll send you announcements about the big stuff. But we encourage you to show your support publicly .</p>
 					</form>
 				</div>
 			</div>
@@ -50,7 +51,7 @@ cfct_loop();
 				</div>
 				<div class="cta-action">
 					<span class="fb-like" data-href="http://www.facebook.com/stompcat" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana"></span>
-					<p class="hide-on-small-max">Venues like bands with <a href="http://www.facebook.com/stompcat">many Facebook fans</a>. Plus, you'll get frequent behind-the-scene updates, upcoming show info, and Stompstories.</p>
+					<p class="hide-on-small-max"><a href="http://www.facebook.com/stompcat">Your public support</a> gets us shows. Plus, you'll get frequent behind-the-scene updates, upcoming show info, and Stompstories.</p>
 				</div>
 			</div>
 			<!-- Twitter -->
