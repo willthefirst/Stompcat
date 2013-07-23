@@ -20,7 +20,7 @@ cfct_loop();
 			<div class="span4 email-cta">
 				<div class="cta-head">
 					<h2 class="prompt-cta">
-						Get the <span class="purple">Stompletter</span>.
+						Get the <a href="http://stompcat.us7.list-manage1.com/subscribe?u=a9647b6224323ceb07cf3ab54&id=18f86f4bfb" target="_blank" class="purple">Stompletter</a>.
 					</h2>
 				</div>
 				<div class="cta-action">
@@ -38,7 +38,7 @@ cfct_loop();
 						<div class="email-submit">
 							<button class="button-custom button-large" style="width:100%" type="submit">Sign me up</button>
 						</div>
-						<p class="hide-on-small-max">We'll send you announcements about the big stuff. But we encourage you to show your support publicly .</p>
+						<p class="hide-on-small-max">We'll send you announcements about the big stuff. But we encourage you to show your support publicly.</p>
 					</form>
 				</div>
 			</div>
@@ -46,7 +46,7 @@ cfct_loop();
 			<div class="span4 fb-cta">
 				<div class="cta-head">
 					<h2 class="prompt-cta">
-						Help us get <span class="purple">gigs</span>.
+						Help us get <a href="http://www.facebook.com/stompcat" target="_blank" class="purple">gigs</a>.
 					</h2>
 				</div>
 				<div class="cta-action">
@@ -58,7 +58,7 @@ cfct_loop();
 			<div class="span4 twitter-cta">
 				<div class="cta-head">
 					<h2 class="prompt-cta">
-						And <span class="purple">this</span> too.
+						And <a href="http://www.twitter.com/stompcat" target="_blank" class="purple">this</a> too.
 					</h2>
 				</div>
 				<div class="cta-action">
