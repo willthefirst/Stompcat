@@ -29,7 +29,7 @@ cfct_loop();
 						<input type="hidden" name="id" value="18f86f4bfb" />
 						<div>
 							<label for="MERGE1">First Name:</label>
-							<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your first name" />
+							<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your first name" autofocus />
 						</div>
 						<div class="email-input-container">
 							<label for="MERGE0">Your Email:</label>
