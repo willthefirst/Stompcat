@@ -38,7 +38,7 @@ cfct_loop();
 						<div class="email-submit">
 							<button class="button-custom button-large" style="width:100%" type="submit">Sign me up</button>
 						</div>
-						<p class="hide-on-small-max">We'll send you announcements about the big stuff. But we encourage you to show your support publicly.</p>
+						<p class="hide-on-small-max">We'll stomp you announcements about the big stuff: album releases, music videos, weddings, births, divorces, custody battles, etc. But seriously, we won't spam you.</p>
 					</form>
 				</div>
 			</div>
@@ -51,20 +51,20 @@ cfct_loop();
 				</div>
 				<div class="cta-action">
 					<span class="fb-like" data-href="http://www.facebook.com/stompcat" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana"></span>
-					<p class="hide-on-small-max"><a href="http://www.facebook.com/stompcat">Your public support</a> gets us shows. Plus, you'll get frequent behind-the-scene updates, upcoming show info, and Stompstories.</p>
+					<p class="hide-on-small-max"><a href="http://www.facebook.com/stompcat">Your public support</a> gets us shows even when our talent doesn't. You'll also be stomped with behind-the-scene updates, upcoming performance info, and other Stomportunities. Facebook hasn't added a Stomp button yet, but Mark Zuckerman told us that there's one coming.</p>
 				</div>
 			</div>
 			<!-- Twitter -->
 			<div class="span4 twitter-cta">
 				<div class="cta-head">
 					<h2 class="prompt-cta">
-						And <a href="http://www.twitter.com/stompcat" target="_blank" class="purple">this</a> too.
+						And <a href="http://www.twitter.com/stompcat" target="_blank" class="purple">Stomptweets</a>, yo.
 					</h2>
 				</div>
 				<div class="cta-action">
 					<a href="https://twitter.com/stompcat" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @stompcat</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-					<p class="hide-on-small-max">We hear that it's all the rage with kids these days. And we figure more Stompcat is better than less Stompcat.</p>
+					<p class="hide-on-small-max">Stomptweets will blow your mind. We post pictures of how we're feeling and mouthwatering explanatory text about food we're eating. <a href="https://twitter.com/search/realtime?q=%23stompcat&src=typd">#Stompcat</a> <a href="https://twitter.com/search/realtime?q=%23gritfunk&src=typd">#GritFunk</a></p>
 				</div>
 			</div>
 		</div>
