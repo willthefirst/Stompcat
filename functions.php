@@ -86,7 +86,6 @@ if (! function_exists('cfct_theme_setup')) {
 }
 add_action('after_setup_theme', 'cfct_theme_setup');
 
-
 /**
  * Register widgetized area and update sidebar with default widgets.
  */

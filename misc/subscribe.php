@@ -1,27 +1,11 @@
 <?php
-
-// Template Name: Home Page - with nav
-
 if (__FILE__ == $_SERVER['SCRIPT_FILENAME']) { die(); }
 if (CFCT_DEBUG) { cfct_banner(__FILE__); }
-
-cfct_header();
 ?>
-
-<div class="strip">
-	<div class="container">
-		<nav class="nav-main">
-			<ul>
-				<li><a href="">Subscribe</a></li>
-				<li><a href="">Shows</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
 
 <div class="strip strip-cta">
 	<div class="container">
-		<div class="row">
+		<div class="row home-section" id="subscribe">
 			<!-- Email -->
 			<div class="span4 email-cta">
 				<div class="cta-head">
@@ -76,11 +60,3 @@ cfct_header();
 		</div>
 	</div>
 </div>
-
-
-
-
-
-<?php
-get_footer();
-?>
