@@ -3,7 +3,6 @@ if (__FILE__ == $_SERVER['SCRIPT_FILENAME']) { die(); }
 if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 ?>
 
-<div class="strip strip-cta">
 	<div class="container">
 		<div class="row home-section" id="subscribe">
 			<!-- Email -->
@@ -59,4 +58,3 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 			</div>
 		</div>
 	</div>
-</div>
