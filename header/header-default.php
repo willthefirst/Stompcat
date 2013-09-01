@@ -29,22 +29,25 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 
 <body <?php body_class("responsive"); ?>>
 
-		<h1 class="strip-banner">
-			<span class="hide">Stompcat</span>
-			<img class="banner-img" src="<?php echo get_template_directory_uri() . '/assets-helium/img/web-banner.png'; ?>" alt="Stompcat">
-		</h1>
-
-		<div class="strip">
-			<div class="container">
-				<nav id="nav-main">
-					<ul>
-						<li>
-							<a href="/">Subscribe</a>
-						</li>
-						<li>
-							<a href="/shows">Shows</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+	<div class="pad-top pad-bot nav-strip">
+		<div class="container">
+			<nav id="nav-main">
+				<ul>
+					<li>
+						<a href="/">Subscribe</a>
+					</li>
+					<li>
+						<a href="/shows">Shows</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
+	</div>
+
+	<h1 class="strip-banner">
+		<span class="hide">Stompcat</span>
+		<img class="banner-img" src="<?php echo get_template_directory_uri() . '/assets-helium/img/web-banner.png'; ?>" alt="Stompcat">
+	</h1>
+
+	<div class="top-offset pad-top">
+

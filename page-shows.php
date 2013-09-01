@@ -8,7 +8,7 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 cfct_header();
 ?>
 
-<div class="strip strip-cta">
+<div class="mar-top strip-cta">
 	<?php cfct_misc('shows'); ?>
 </div>
 
