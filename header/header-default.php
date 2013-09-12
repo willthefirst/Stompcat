@@ -34,7 +34,7 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 		<img class="banner-img" src="<?php echo get_template_directory_uri() . '/assets-helium/img/web-banner.png'; ?>" alt="Stompcat">
 	</h1>
 
-	<div class="pad-top pad-bot nav-strip">
+	<div class="pad-top pad-bot">
 		<div class="container">
 			<nav id="nav-main">
 				<ul>
@@ -48,3 +48,4 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 			</nav>
 		</div>
 	</div>
+
