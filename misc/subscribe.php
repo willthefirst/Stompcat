@@ -17,12 +17,15 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 						<input type="hidden" name="u" value="a9647b6224323ceb07cf3ab54" />
 						<input type="hidden" name="id" value="18f86f4bfb" />
 						<div>
-							<label for="MERGE1">First Name:</label>
+							<label class="hide" for="MERGE1">First Name:</label>
 							<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your first name" autofocus />
 						</div>
 						<div class="email-input-container">
-							<label for="MERGE0">Your Email:</label>
+							<label class="hide" for="MERGE0">Your Email:</label>
 							<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Your email" required/>
+						</div>
+						<div class="mc-field-group input-group">
+				    		<input type="checkbox" value="1" name="group[3589][1]" id="mce-group[3589]-3589-0"><label for="mce-group[3589]-3589-0"> I live in Denver!</label>
 						</div>
 						<div class="email-submit">
 							<button class="button-custom button-large" style="width:100%" type="submit">Sign me up</button>
