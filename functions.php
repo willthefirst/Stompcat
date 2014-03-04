@@ -8,7 +8,7 @@ define('CFCT_PATH', trailingslashit(TEMPLATEPATH));
  * Set this to "true" to turn on debugging mode.
  * Helps with development by showing the paths of the files loaded by Carrington.
  */
-define('CFCT_DEBUG', debug);
+define('CFCT_DEBUG', false);
 
 /**
  * Theme version.

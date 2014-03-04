@@ -9,23 +9,20 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 			<div class="span4 email-cta">
 				<div class="cta-head">
 					<h2 class="prompt-cta">
-						Get the <a href="http://stompcat.us7.list-manage1.com/subscribe?u=a9647b6224323ceb07cf3ab54&id=18f86f4bfb" target="_blank" class="purple">Stompletter</a>.
+						Get the <a href="http://stompcat.us7.list-manage.com/subscribe/post?u=a9647b6224323ceb07cf3ab54&amp;id=18f86f4bfb" target="_blank" class="purple">Stompletter</a>.
 					</h2>
 				</div>
 				<div class="cta-action">
 					<form class="email-form" action="http://stompcat.us7.list-manage.com/subscribe/post" method="POST" target="_blank">
 						<input type="hidden" name="u" value="a9647b6224323ceb07cf3ab54" />
 						<input type="hidden" name="id" value="18f86f4bfb" />
-						<div>
-							<label class="hide" for="MERGE1">First Name:</label>
-							<input type="text" name="MERGE1" id="MERGE1" size="25" value="" pattern="^[\S]*$" oninvalid="setCustomValidity('We just need your first name.')" placeholder="Your first name" autofocus />
-						</div>
 						<div class="email-input-container">
-							<label class="hide" for="MERGE0">Your Email:</label>
-							<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Your email" required/>
+							<label class="hide" for="EMAIL">Your Email:</label>
+							<input type="email" autocapitalize="off" autocorrect="off" name="EMAIL" id="EMAIL" size="25" placeholder="Your email" required/>
 						</div>
 						<div class="mc-field-group input-group">
-				    		<input type="checkbox" value="1" name="group[3589][1]" id="mce-group[3589]-3589-0"><label for="mce-group[3589]-3589-0"> I live in Denver!</label>
+							<label class="hide" for="ZIP">Your zip code </label>
+							<input type="text" placeholder="Your zip code" value="" name="ZIP" class="" size="5" id="ZIP" pattern="\d*" />
 						</div>
 						<div class="email-submit">
 							<button class="button-custom button-large" style="width:100%" type="submit">Sign me up</button>
