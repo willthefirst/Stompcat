@@ -39,20 +39,11 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 	<div class="pad-top pad-bot">
 		<div class="container">
 			<nav id="nav-main">
-				<ul>
-					<li>
-						<a href="/shows">Music</a>
-					</li>
-					<li>
-						<a href="/">Subscribe</a>
-					</li>
-					<li>
-						<a href="/shows">Shows</a>
-					</li>
-					<li>
-						<a href="/blog">Tour Blog</a>
-					</li>
-				</ul>
+				<?php wp_nav_menu( array(
+					'container' => '',
+					'theme_location' => 'main',
+					'depth' => 0
+				)); ?>
 			</nav>
 		</div>
 	</div>
