@@ -10,7 +10,6 @@ get_header();
 	<?php
 	// For the loop used, look in /loops
 	cfct_loop();
-	comments_template();
 	?>
 </div><!-- #primary -->
 

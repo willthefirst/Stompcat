@@ -1,7 +1,5 @@
 <?php
 
-
-
 if (__FILE__ == $_SERVER['SCRIPT_FILENAME']) { die(); }
 
 define('CFCT_PATH', trailingslashit(TEMPLATEPATH));

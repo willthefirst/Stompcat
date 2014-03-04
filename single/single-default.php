@@ -9,11 +9,10 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 get_header();
 ?>
 
-<div id="primary" class="c1-8">
+<div class="container">
 <?php
 // For the loop used, look in /loops
 cfct_loop();
-comments_template();
 ?>
 	<div class="pagination pagination-single">
 		<span class="next"><?php next_post_link() ?></span>
@@ -21,9 +20,6 @@ comments_template();
 	</div>
 </div> <!-- #content -->
 <?php
-
-// Calls sidebar.php
-get_sidebar();
 
 // Calls footer.php
 get_footer();

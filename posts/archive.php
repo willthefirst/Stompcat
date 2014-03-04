@@ -41,8 +41,8 @@ get_header();
 		// For the loop used, look in /loops
 		cfct_loop();
 
-		// Pagination
-		cfct_misc('nav-posts');
+		// // Pagination
+		// cfct_misc('nav-posts');
 	?>
 
 </div><!-- #primary -->
