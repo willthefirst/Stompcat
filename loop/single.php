@@ -11,5 +11,3 @@ if (have_posts()) {
 }
 
 ?>
-
-asdsa

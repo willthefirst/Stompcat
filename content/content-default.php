@@ -21,8 +21,9 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 	</div>
 	<div class="entry-footer entry-meta">
 		<?php
-			printf(__('<p><strong>Categories:</strong> %s</p>', 'carrington-blueprint'), get_the_category_list(', '));
-			the_tags(__('<p><strong>Tags:</strong> ', 'carrington-blueprint'), ', ', '</p>');
+			// printf(__('<p><strong>Categories:</strong> %s</p>', 'carrington-blueprint'), get_the_category_list(', '));
+			// the_tags(__('<p><strong>Tags:</strong> ', 'carrington-blueprint'), ', ', '</p>');
 		?>
 	</div>
+	<p><?php edit_post_link(); ?></p>
 </article><!-- .post -->

@@ -10,8 +10,12 @@ get_header();
 <div id="primary" class="container">
 
 <?php
-cfct_loop();
-// cfct_misc('nav-posts');
+if (have_posts()) {
+	while (have_posts()) {
+		the_post();
+		cfct_content();
+	}
+}
 ?>
 
 </div><!-- #primary -->
