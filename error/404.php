@@ -1,17 +1,13 @@
 <?php
 
-
-
 if (__FILE__ == $_SERVER['SCRIPT_FILENAME']) { die(); }
 if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 
-get_header();
+cfct_header();
 ?>
-<div id="primary" class="c1-12">
-	<h1><?php _e('<i>Error 404:</i> Page Not Found', 'carrington-blueprint'); ?></h1>
-	<?php
-	_e('<h2>Sorry, we couldn&rsquo;t find the page you&rsquo;re looking for.</h2> <p>We may have moved the page or perhaps you followed an outdated link.<br/> You could try a search, or visit the home page.</p>', 'carrington-blueprint').'</p>';
-	cfct_form('search');
-	?>
+
+<div class="container">
+	<h1><?php _e('Nothing here baby.', 'carrington-blueprint'); ?></h1>
 </div><!-- #content -->
+
 <?php get_footer(); ?>

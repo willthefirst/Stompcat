@@ -7,7 +7,7 @@ get_header();
 
 ?>
 
-<div id="primary" class="c1-8">
+<div id="primary" class="container">
 
 <?php
 cfct_loop();
