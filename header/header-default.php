@@ -36,6 +36,21 @@ $title_description = (is_home() && !empty($blog_desc) ? ' - '.$blog_desc : '');
 		</a>
 	</h1>
 
+	<!-- <div class="cta-fixed">
+		<ul>
+			<li>
+				<a href="http://stompcat.us7.list-manage.com/subscribe/post?u=a9647b6224323ceb07cf3ab54&amp;id=18f86f4bfb" target="_blank" class="purple">Stompletter</a>
+			</li>
+			<li>
+				<span class="fb-like fb-like-top" data-href="http://www.facebook.com/stompcat" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana"></span>
+			</li>
+			<li>
+				<a href="https://twitter.com/stompcat" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @stompcat</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</li>
+		</ul>
+	</div> -->
+
 	<div class="pad-top pad-bot">
 		<div class="container">
 			<nav id="nav-main">

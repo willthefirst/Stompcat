@@ -5,6 +5,8 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 
 ?>
 
+	<p class="footer-msg">Contact us at <a href="mailto:stompcatband@gmail.com">stompcatband@gmail.com</a></p>
+
 	<div id="fb-root"></div><!-- For Facebook Like button -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
